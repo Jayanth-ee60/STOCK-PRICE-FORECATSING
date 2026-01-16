@@ -29,6 +29,7 @@ if isinstance(df.columns, pd.MultiIndex):
 
 # Sort the date and use it as the index(already an index)
 df = df.sort_index()
+df.to_csv("data/NIFTY50.csv", index=True)
 
 '''DATA CLEANING'''
 # Drop rows with missing core values
