@@ -49,7 +49,6 @@ venv\Scripts\activate
 source venv/bin/activate
 pip install -r requirements.txt
 python src/forecast.py
-n.
 
 
 ##⚠️ Disclaimer
